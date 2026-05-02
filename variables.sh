@@ -1,6 +1,5 @@
 #!/bin/bash
-name="Bala"
-age=25
+echo "Enter your name:"
+read name
 
-echo "My name is $name"
-echo "I am $age years old"
+echo "Welcome $name"
