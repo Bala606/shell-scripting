@@ -1,10 +1,6 @@
 #!/bin/bash
+name="Bala"
+age=25
 
-src="/home/user/data"
-dest="/home/user/backup"
-
-mkdir -p $src
-mkdir -p $dest
-cp -r $src/* $dest
-
-echo "Backup completed successfully"
+echo "My name is $name"
+echo "I am $age years old"
