@@ -1,5 +1,10 @@
 #!/bin/bash
-echo "Enter your age:"
-read age
+echo "Enter a number:"
+read num
 
-echo "my age is  $age"
+if [ $num -gt 10 ]
+then
+  echo "Number is greater than 10"
+else
+  echo "Number is 10 or less"
+fi
