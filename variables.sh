@@ -1,5 +1,5 @@
 #!/bin/bash
-count=1
+count=6
 
 while [ $count -le 5 ]
 do
